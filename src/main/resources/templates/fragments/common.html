@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+
+		<div class="header-top" th:fragment="headerTop">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="admin-logo">
+							<div class="logo-bg pull-left">
+								<img src="images/logo1.png" alt="Admin" ></img>
+							</div>
+							<p>
+								<span sec:authentication="name">Hello Admin</span> 
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="top-right">
+							<select>
+								<option>Select Language</option>
+								<option>English-(US)</option>
+								<option>Hindi-(India)</option>
+							</select>
+							<ul class="top-menu">
+								<li><a href="#"><i class="fa fa-home"
+										aria-hidden="true"></i></a></li>
+								<li><a href="#">NDNC</a></li>
+								<li><a href="#">Developer API</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<nav class="sidebar" th:fragment="sidebar">
+
+		<ul class="sidebar-menu">
+			<li><a href="#">Rapid Message</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Compose Message</a></li>
+					<li><a href="#">Upload Bulk SMS</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Smart Reports</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Sent SMS</a></li>
+					<li><a href="#">Scheduled Messages</a></li>
+					<li><a href="#">Cancel Scheduled SMS</a></li>
+					<li><a href="#">MIS Reports</a></li>
+					<li><a href="#">DLR Reports</a></li>
+					<li><a href="#">Route Status</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact Book</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Create Group</a></li>
+					<li><a href="#">Create Contacts</a></li>
+					<li><a href="#">Import Contacts</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Templates</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Create Template</a></li>
+					<li><a href="#">Approve Template</a></li>
+					<li><a href="#">View Template</a></li>
+				</ul>
+			</li>
+			<li><a href="#">My Purchase</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Purchase Credit</a></li>
+					<li><a href="#">Sold Credit</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Accounts</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Update Profile</a></li>
+					<li><a href="#">Change Password</a></li>
+					<li><a href="#">Manage Sender Id</a></li>
+					<li><a href="#">Upload Logo</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Reach Us</a></li>
+			<li>
+				<ul class="side-submenu">
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</li>
+		</ul>
+
+	</nav>
+
+
+</body>
+</html>
