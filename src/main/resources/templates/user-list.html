@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="en-US" style="overflow-y: scroll;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Original Hover Effects with CSS3"/>
+<meta name="keywords" content="css3, transitions, thumbnail, animation, hover, effect, description, caption"/>
+<meta name="author" content="Alessio Atzeni for Codrops"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User List</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/dataTables.bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<header class="header">
+		<div class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="admin-logo">
+							<div class="logo-bg pull-left">
+								<img src="images/logo1.png" alt="Admin" />
+							</div>
+							<p><span>Hello Admin</span> <span>20/02/2017</span><span>10:23 PM</span></p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="top-right">
+							<select>
+								<option>Select Language</option>
+								<option>English-(US)</option>
+								<option>Hindi-(India)</option>
+							</select>
+							<ul class="top-menu">
+								<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+								<li><a href="#">NDNC</a></li>
+								<li><a href="#">Developer API</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<nav class="sidebar">
+							
+							<ul class="sidebar-menu">
+								<li><a href="#">Rapid Message</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Compose Message</a></li>
+										<li><a href="#">Upload Bulk SMS</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Smart Reports</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Sent SMS</a></li>
+										<li><a href="#">Scheduled Messages</a></li>
+										<li><a href="#">Cancel Scheduled SMS</a></li>
+										<li><a href="#">MIS Reports</a></li>
+										<li><a href="#">DLR Reports</a></li>
+										<li><a href="#">Route Status</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Contact Book</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Create Group</a></li>
+										<li><a href="#">Create Contacts</a></li>
+										<li><a href="#">Import Contacts</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Templates</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Create Template</a></li>
+										<li><a href="#">Approve Template</a></li>
+										<li><a href="#">View Template</a></li>
+									</ul>
+								</li>
+								<li><a href="#">My Purchase</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Purchase Credit</a></li>
+										<li><a href="#">Sold Credit</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Accounts</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Update Profile</a></li>
+										<li><a href="#">Change Password</a></li>
+										<li><a href="#">Manage Sender Id</a></li>
+										<li><a href="#">Upload Logo</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Reach Us</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</li>
+							</ul>
+						
+						</nav>
+					</div>
+					<div class="col-sm-9">
+						<main>
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="welco">
+										<p>Welcome admin1, your balance SMS is 64554 credit. Profile ID:1</p>
+										<p>DND Update :: Update 0 Records and added 0 records at 2015-03-20 10:30:29 </p>
+										<p class="danger">Your account balance will expire on 17 November 2016* </p>
+									</div>
+								</div>
+								<div class="col-sm-3 text-right">
+									<button class="btn btn-default custom-btn" type="button">Admin Panel</button>
+								</div>
+							</div>
+							<div class="admin-panel">
+								<div class="panel panel-default">
+								  <div class="panel-heading">Client List</div>
+								  <div class="panel-body">
+								  	<div class="table-details">
+								  		<div class="row">
+								  			<div class="col-sm-6">
+								  				<div class="margin-top5"><p class="danger">Records: 1 Total Balance: 0054526</p></div>
+								  			</div>
+								  			<div class="col-sm-6 text-right">
+								  				<div class="margin-top5">
+								  					<p><strong>Records: 1 Total Balance: 0054526:</strong> <a href="" class="btn btn-default custom-btn" download="">Download</a></p>
+								  				</div>
+								  			</div>
+								  		</div>
+								  	</div>
+								  	<div class="datatables">
+								  		<table id="user-data" class="table table-striped table-bordered" cellspacing="0" width="100%">
+									        <thead>
+									            <tr>
+									                <th>S.N</th>
+									                <th>UID</th>
+									                <th>User</th>
+									                <th>Email</th>
+									                <th>Mobile</th>
+									                <th>Balance</th>
+									                <th>Status</th>
+									            </tr>
+									        </thead>
+									        <tbody>
+									            <tr>
+									                <td>1</td>
+									                <td>4512544</td>
+									                <td>Edinburgh</td>
+									                <td>xyz@gmail.com</td>
+									                <td>8754412442</td>
+									                <td>$320,800</td>
+									                <td>Active</td>
+									            </tr>
+									            <tr>
+									                <td>2</td>
+									                <td>54512</td>
+									                <td>Tokyo</td>
+									                <td>xyz@gmail.com</td>
+									                <td>8754412442</td>
+									                <td>$170,750</td>
+									                <td>Active</td>
+									            </tr>
+									            <tr>
+									                <td>3</td>
+									                <td>215444</td>
+									                <td>San Francisco</td>
+									                <td>xyz@gmail.com</td>
+									                <td>8754412442</td>
+									                <td>$86,000</td>
+									                <td>Active</td>
+									            </tr>
+									            <tr>
+									                <td>4</td>
+									                <td>7874512</td>
+									                <td>Edinburgh</td>
+									                <td>22</td>
+									                <td>8754412442</td>
+									                <td>$433,060</td>
+									                <td>Delete</td>
+									            </tr>
+									            <tr>
+									                <td>5</td>
+									                <td>214545</td>
+									                <td>Tokyo</td>
+									                <td>33</td>
+									                <td>8754412442</td>
+									                <td>$162,700</td>
+									                <td>Delete</td>
+									            </tr>
+									        </tbody>
+									    </table>
+								  	</div>
+								  </div>
+								</div>
+							</div>
+							<!-- <div class="footer">
+								
+							</div> -->
+						</main>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

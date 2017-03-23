@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html lang="en-US" style="overflow-y: scroll;">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Original Hover Effects with CSS3"/>
+<meta name="keywords" content="css3, transitions, thumbnail, animation, hover, effect, description, caption"/>
+<meta name="author" content="Alessio Atzeni for Codrops"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Panel</title>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<header class="header">
+		<div class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="admin-logo">
+							<div class="logo-bg pull-left">
+								<img src="images/logo1.png" alt="Admin" />
+							</div>
+							<p><span>Hello Admin</span> <span>20/02/2017</span><span>10:23 PM</span></p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="top-right">
+							<select>
+								<option>Select Language</option>
+								<option>English-(US)</option>
+								<option>Hindi-(India)</option>
+							</select>
+							<ul class="top-menu">
+								<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+								<li><a href="#">NDNC</a></li>
+								<li><a href="#">Developer API</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<nav class="sidebar">
+							
+							<ul class="sidebar-menu">
+								<li><a href="#">Rapid Message</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Compose Message</a></li>
+										<li><a href="#">Upload Bulk SMS</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Smart Reports</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Sent SMS</a></li>
+										<li><a href="#">Scheduled Messages</a></li>
+										<li><a href="#">Cancel Scheduled SMS</a></li>
+										<li><a href="#">MIS Reports</a></li>
+										<li><a href="#">DLR Reports</a></li>
+										<li><a href="#">Route Status</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Contact Book</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Create Group</a></li>
+										<li><a href="#">Create Contacts</a></li>
+										<li><a href="#">Import Contacts</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Templates</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Create Template</a></li>
+										<li><a href="#">Approve Template</a></li>
+										<li><a href="#">View Template</a></li>
+									</ul>
+								</li>
+								<li><a href="#">My Purchase</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Purchase Credit</a></li>
+										<li><a href="#">Sold Credit</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Accounts</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Update Profile</a></li>
+										<li><a href="#">Change Password</a></li>
+										<li><a href="#">Manage Sender Id</a></li>
+										<li><a href="#">Upload Logo</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Reach Us</a></li>
+								<li>
+									<ul class="side-submenu">
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</li>
+							</ul>
+						
+						</nav>
+					</div>
+					<div class="col-sm-9">
+						<main>
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="welco">
+										<p>Welcome admin1, your balance SMS is 64554 credit. Profile ID:1</p>
+										<p>DND Update :: Update 0 Records and added 0 records at 2015-03-20 10:30:29 </p>
+										<p class="danger">Your account balance will expire on 17 November 2016* </p>
+									</div>
+								</div>
+								<div class="col-sm-3 text-right">
+									<button class="btn btn-default custom-btn" type="button">Admin Panel</button>
+								</div>
+							</div>
+							<div class="admin-panel">
+								<div class="panel panel-default">
+								  <div class="panel-heading">Administrastion Panel</div>
+								  <div class="panel-body">
+								  	<div class="table-details">
+								  		<table border="0" cellpadding="0" cellspacing="0">
+								  			<tbody>
+								  				<tr>
+								  					<td>SMS Purchased</td>
+								  					<td>SMS Allocation</td>
+								  					<td>Balance SMS</td>
+								  					<td>SenderID Used</td>
+								  					<td>SenderID Allotted</td>
+								  					<td>Dynamic</td>
+								  				</tr>
+								  				<tr>
+								  					<td span="6"><p class="danger"><a class="danger" href="#">Show Data</a></p></td>
+								  				</tr>
+								  				<tr>
+								  					<td><p class="danger">4711608</p></td>
+								  					<td>4711608</td>
+								  					<td><strong>4711608</strong></td>
+								  					<td><strong>INSTUT</strong></td>
+								  					<td>100</td>
+								  					<td><strong>Yes</strong></td>
+								  				</tr>
+								  			</tbody>
+								  		</table>
+								  	</div>
+								  	<p class="single-para"><strong>SMS Push Link Url:</strong> To be integrated with Websites/Online-Offline Applications</p>
+								  	<div class="table-details">
+								  		<div class="panel-headings">Users Management</div>
+								  	</div>
+								  	<ul class="user-list">
+								  		<li>
+								  			<a href="#"><img src="images/user-list.png" alt=""><span>Users List</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/new-user.png" alt=""><span>Add New User</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/log.png" alt=""><span>Log</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/role.png" alt=""><span>Role Management</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/users.png" alt=""><span>Users Authority</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/role.png" alt=""><span>Proxy</span></a>
+								  		</li>
+
+								  		<li>
+								  			<a href="#"><img src="images/sms.png" alt=""><span>Reverse SMS</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/black-list.png" alt=""><span>Black List</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/black-list.png" alt=""><span>Black Contain List</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/black-list.png" alt=""><span>Password Request</span></a>
+								  		</li>
+								  	</ul>
+
+								  	<div class="table-details">
+								  		<div class="panel-headings">Website Branding</div>
+								  	</div>
+								  	<ul class="user-list">
+								  		<li>
+								  			<a href="#"><img src="images/daily-sms.png" alt=""><span>Daily SMS Allocations</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/user-list.png" alt=""><span>Set Notice</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/profile.png" alt=""><span>Profile</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/daily-sms.png" alt=""><span>Daily Credit Back Entries</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/daily-sms.png" alt=""><span>Discount SMS Summary</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/daily-sms.png" alt=""><span>Developer API</span></a>
+								  		</li>
+								  	</ul>
+
+								  	<div class="table-details">
+								  		<div class="panel-headings">Miscellaneous Management</div>
+								  	</div>
+								  	<ul class="user-list">
+								  		<li>
+								  			<a href="#"><img src="images/sim-dnd.png" alt=""><span>SIM-DND Queue</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sim-dnd.png" alt=""><span>SIM-Non-DND Queue</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sim-dnd.png" alt=""><span>Trans Queue</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/smpp-que.png" alt=""><span>Smpp Queue</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sim-dnd.png" alt=""><span>Prop/Non Prop Queue</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sim-dnd.png" alt=""><span>Download DND File</span></a>
+								  		</li>
+								  	</ul>
+
+								  	<div class="table-details">
+								  		<div class="panel-headings">Job Priority Authorization</div>
+								  	</div>
+								  	<ul class="user-list">
+								  		<li>
+								  			<a href="#"><img src="images/sms.png" alt=""><span>Change Modem</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sms.png" alt=""><span>Modem System Info</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sms.png" alt=""><span>SMPP System Info</span></a>
+								  		</li>
+								  		<li>
+								  			<a href="#"><img src="images/sms.png" alt=""><span>Change Queue</span></a>
+								  		</li>
+								  	</ul>
+								  </div>
+								</div>
+							</div>
+							<div class="footer">
+								
+							</div>
+						</main>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
