@@ -36,6 +36,8 @@ dependencies {
 	
 	compile('org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE')
 	
+	compile('com.fizzed:ch-smpp:5.0.9')
+	
 	compile('org.projectlombok:lombok')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('mysql:mysql-connector-java')
